@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DisplayBlock & Inline-Block</title>
+    <style>
+      .name-bar, .email-bar {
+        display: block;
+        margin-bottom: 5px;
+      }
+      .question {
+        width: 300px;
+        vertical-align: middle;
+        display: inline-block;
+      }
+      .yes-button, .no-button {
+        display: inline-block;
+        font-size: 14px;
+      }
+
+      .search-bar {
+        display: block;
+        font-size: 16px;
+        height: 44px;
+        width: 561px;
+        border-radius: 28px;
+        border: snow;
+        border-width: 1px;
+        padding-left: 20px;
+        box-shadow: 0px 0px 4px gray;
+        margin-top: 250px;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <input class="name-bar" type="text" placeholder="Name">
+    <input class="email-bar" type="text" placeholder="Email">
+
+    <p class="question">
+      Thanks for chatting with our customer support. Would you like to take our quick survey?
+    </p>
+    <button class="yes-button">Yes</button>
+    <button class="no-button">No</button>
+
+    <input class="search-bar" type="text" placeholder="Search Google or type a URL">
+  </body>
+</html>

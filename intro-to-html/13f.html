@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      div {
+        font-family: Arial;
+      }
+      .tweet {
+        display: flex;
+        flex-direction: row;
+        width: 420px;
+        margin-top: 10px;
+        margin-left: 20px;
+      }
+      .profile-picture-column {
+        margin-right: 10px;
+      }
+      .profile-picture {
+        width: 60px;
+        height: 60px;
+        object-fit: cover;
+        border-radius: 30px;
+      }
+      .tweet-column {
+        flex: 1;
+      }
+      .tweet-header {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 5px;
+      }
+      .tweet-content {
+        line-height: 20px;
+        margin-bottom: 15px;
+      }
+      .tweet-author {
+        font-weight: bold;
+      }
+      .tweet-author-handler {
+        color:rgb(111, 111, 111);
+      }
+      .video-preview {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(200, 200, 200);
+        border-radius: 15px;
+        overflow: hidden;
+      }
+      .thumbnail-column {
+        background-color: rgb(220, 220, 220);
+        width: 100px;
+        height: 100px;
+        margin-right: 20px;
+      }
+      .video-info-column {
+        flex: 1;
+      }
+      .video-website {
+        color: rgb(111, 111, 111);
+        margin-bottom: 3px;
+      }
+      .video-title {
+        line-height: 22px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="tweet">
+      <div class="profile-picture-column">
+        <img class="profile-picture" src="/thumbnails/ace.jpg">
+      </div>
+      <div class="tweet-column">
+        <div class="tweet-header">
+          <div class="tweet-author">supersimple.dev</div>
+          <div class="tweet-author-handler">@SuperSimpleDev</div>
+        </div>
+        <div class="tweet-content">
+          <div>What is backend web development? A complete overview. New video is up!</div>
+        </div>
+        <div class="video-preview">
+          <div class="thumbnail-column"></div>
+          <div class="video-info-column">
+            <div class="video-website">youtube.com</div>
+            <div class="video-title">
+              Backend we development - a complete overview (2021)
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
